@@ -1,0 +1,21 @@
+---
+to: src/components/<%= h.inflection.pluralize(h.changeCase.lower(type)) %>/<%= name %>/__stories__/<%= name %>.story.tsx
+---
+import React from 'react';
+import { storiesOf } from '@storybook/react';
+
+import <%= name %> from '../<%= name %>';
+
+import {
+    defaultProps,
+} from '../__data__/<%= name %>.mockdata';
+
+storiesOf('<%= h.inflection.pluralize(h.changeCase.paramCase(type)) %>', module)
+    .addParameters({
+        readme: {
+            sidebar: require('../readme.md'),
+        },
+    })
+    .add('<%= name %>', () => (
+       <<%= name %> {... defaultProps} />
+    ));

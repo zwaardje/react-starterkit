@@ -1,0 +1,8 @@
+---
+to: src/components/<%= h.inflection.pluralize(h.changeCase.paramCase(type)) %>/<%= name %>/__data__/<%= name %>.mockdata.ts
+---
+import { <%= name %> as <%= name %>Interface } from '../<%= name %>Interface';
+
+export const defaultProps: <%= name %>Interface = {
+
+}

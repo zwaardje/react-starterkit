@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="11px" viewBox="0 0 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="bevel">
+        <g id="elements/nav/booking/cancel" transform="translate(-2.000000, -4.000000)" stroke="inherit" stroke-width="1.62">
+            <g id="element/optional-link" transform="translate(3.000000, -1.000000)">
+                <g id="add" transform="translate(4.500000, 10.500000) scale(-1, 1) translate(-4.500000, -10.500000) translate(0.000000, 6.000000)">
+                    <g id="Group">
+                        <polyline id="Path-2" points="0 8.8817842e-16 4.15384615 4.20779221 0 8.76623377"></polyline>
+                        <polyline id="Path-2" transform="translate(6.230769, 4.383117) scale(-1, 1) translate(-6.230769, -4.383117) " points="4.15384615 0 8.30769231 4.20779221 4.15384615 8.76623377"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

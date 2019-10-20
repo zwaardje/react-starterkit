@@ -1,0 +1,182 @@
+/** @format */
+
+$baseFontSize: 1rem;
+$baseLineHeight: 1.5;
+$scaleFactor: 1.25;
+
+*::before,
+*,
+*::after {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+}
+
+body {
+    font-family: Noto Sans, sans-serif;
+    font-size: $baseFontSize;
+    line-height: $baseLineHeight;
+    color: #414141;
+}
+
+h1 {
+    $fontSize: $scaleFactor * $scaleFactor * $scaleFactor;
+
+    font-size: $fontSize * $baseFontSize;
+    font-weight: 500;
+    letter-spacing: -0.4px;
+    line-height: 1.5 * $baseLineHeight / $fontSize;
+    margin: (2 * $baseFontSize * $baseLineHeight) 0;
+}
+
+h2 {
+    $fontSize: $scaleFactor * $scaleFactor;
+
+    font-size: $fontSize * $baseFontSize;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    line-height: 1.25 * $baseLineHeight / $fontSize;
+    margin: (2 * $baseFontSize * $baseLineHeight) 0
+        ($baseFontSize * $baseLineHeight);
+}
+
+h3 {
+    $fontSize: $scaleFactor;
+
+    font-size: $fontSize * $baseFontSize;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    line-height: 1 * $baseLineHeight / $fontSize;
+    margin: (2 * $baseFontSize * $baseLineHeight) 0
+        ($baseFontSize * $baseLineHeight);
+}
+
+h4 {
+    font-size: $baseFontSize;
+    font-weight: 600;
+    line-height: $baseLineHeight;
+    margin: ($baseFontSize * $baseLineHeight) 0 0;
+}
+
+h4 + * {
+    margin-top: 0 !important;
+}
+
+h5 {
+    font-size: 0.75 * $baseFontSize;
+    letter-spacing: 0.2px;
+    line-height: 0.75 * $baseLineHeight;
+    margin: ($baseFontSize * $baseLineHeight) 0 0;
+}
+
+p {
+    margin: ($baseFontSize * $baseLineHeight) 0;
+}
+
+ul,
+ol {
+    margin: ($baseFontSize * $baseLineHeight) 0;
+    padding-left: 0.5 * $baseFontSize * $baseLineHeight;
+}
+
+li + li {
+    margin-top: 0.25 * $baseFontSize * $baseLineHeight;
+}
+
+dl {
+    margin: ($baseFontSize * $baseLineHeight) 0;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+dt,
+dd {
+    margin: 0;
+}
+
+dt {
+    border-top: 1px solid;
+    font-weight: bold;
+    padding: 0.5 * $baseFontSize * $baseLineHeight;
+
+    &:first-of-type {
+        border-top: 0;
+    }
+}
+
+dd {
+    padding: 0 0.5 * $baseFontSize * $baseLineHeight 0.5 * $baseFontSize *
+        $baseLineHeight;
+}
+
+small {
+    font-size: 75%;
+}
+
+blockquote {
+    font-size: 125%;
+    margin: ($baseFontSize * $baseLineHeight) 0;
+    text-align: center;
+
+    :first-child::before {
+        content: open-quote;
+    }
+
+    :last-child::after {
+        content: close-quote;
+    }
+}
+
+@media (min-width: 40em) {
+    $scaleFactor: 1.5;
+
+    h1 {
+        $fontSize: $scaleFactor * $scaleFactor * $scaleFactor;
+
+        font-size: $fontSize * $baseFontSize;
+        letter-spacing: -1px;
+        line-height: 2.5 * $baseLineHeight / $fontSize;
+        margin: (3 * $baseFontSize * $baseLineHeight) 0;
+    }
+
+    h2 {
+        $fontSize: $scaleFactor * $scaleFactor;
+
+        font-size: $fontSize * $baseFontSize;
+        letter-spacing: -0.5px;
+        line-height: 1.75 * $baseLineHeight / $fontSize;
+        margin: (3 * $baseFontSize * $baseLineHeight) 0
+            (2 * $baseFontSize * $baseLineHeight);
+    }
+
+    h3 {
+        $fontSize: $scaleFactor;
+
+        font-size: $fontSize * $baseFontSize;
+        letter-spacing: -0.25px;
+        line-height: 1.25 * $baseLineHeight / $fontSize;
+    }
+
+    dl {
+        display: grid;
+        grid-template-columns: max-content auto;
+    }
+
+    dt,
+    dd {
+        border-top: 1px solid;
+        padding: ($baseFontSize * $baseLineHeight);
+
+        &:first-of-type {
+            border-top: 0;
+        }
+    }
+
+    blockquote {
+        font-size: 150%;
+    }
+}

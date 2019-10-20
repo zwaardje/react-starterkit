@@ -1,0 +1,98 @@
+$gridBreakpoints: (
+    "mobile": (
+        selector: "xxs",
+        minWidth: 320px,
+    ),
+    "mobile-xl": (
+        selector: "xs",
+        minWidth: 569px,
+        maxWidth: 767px,
+    ),
+    "tablet": (
+        selector: "sm",
+        minWidth: 768px,
+        maxWidth: 1024px,
+    ),
+    "desktop": (
+        selector: "md",
+        minWidth: 1025px,
+        maxWidth: 1200px,
+    ),
+    "desktop-hd": (
+        selector: "lg",
+        minWidth: 1201px,
+    ),
+);
+
+$mobileWidth: map-get(map-get($gridBreakpoints, mobile), minWidth);
+$mobileXlWidth: map-get(map-get($gridBreakpoints, mobile-xl), minWidth);
+$tabletWidth: map-get(map-get($gridBreakpoints, tablet), minWidth);
+$desktopWidth: map-get(map-get($gridBreakpoints, desktop), minWidth);
+$desktopHdWidth: map-get(map-get($gridBreakpoints, desktop-hd), minWidth);
+
+@mixin min-mobile {
+    @media (min-width: $mobileWidth) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (min-width: $mobileWidth) and (max-width: $tabletWidth - 1) {
+        @content;
+    }
+}
+
+@mixin max-mobile {
+    @media (max-width: $mobileXlWidth - 1) {
+        @content;
+    }
+}
+
+@mixin min-mobile-xl {
+    @media (min-width: $mobileXlWidth) {
+        @content;
+    }
+}
+
+@mixin max-mobile-xl {
+    @media (max-width: $tabletWidth - 1) {
+        @content;
+    }
+}
+
+@mixin min-tablet {
+    @media (min-width: $tabletWidth) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: $tabletWidth) and (max-width: $desktopWidth - 1px) {
+        @content;
+    }
+}
+
+@mixin max-tablet {
+    @media (max-width: $desktopWidth - 1) {
+        @content;
+    }
+}
+
+@mixin min-desktop {
+    @media (min-width: $desktopWidth) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $desktopWidth) and (max-width: $desktopHdWidth - 1px) {
+        @content;
+    }
+}
+
+@mixin min-desktop-hd {
+    @media (min-width: $desktopHdWidth) {
+        @content;
+    }
+}
+

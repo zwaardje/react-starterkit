@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>add</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="elements/optional-link" transform="translate(0.000000, -3.000000)" fill="#B1B1B1" fill-rule="nonzero">
+            <g id="element/optional-link">
+                <g id="add" transform="translate(7.500000, 10.500000) scale(-1, 1) translate(-7.500000, -10.500000) translate(0.000000, 3.000000)">
+                    <path d="M14.1859574,6.45347844 L8.54648681,6.45347844 L8.54648681,0.813954434 C8.54648681,0.557051019 8.19763754,0 7.4999695,0 C6.80230147,0 6.4534522,0.557081515 6.4534522,0.813954434 L6.4534522,6.45350894 L0.813951124,6.45350894 C0.55707925,6.45347844 0,6.80232913 0,7.4999695 C0,8.19760988 0.55707925,8.54649106 0.813951124,8.54649106 L6.4534827,8.54649106 L6.4534827,14.1860456 C6.4534827,14.442888 6.80230147,15 7.5,15 C8.19769853,15 8.5465173,14.442888 8.5465173,14.1860456 L8.5465173,8.54649106 L14.1860489,8.54649106 C14.4428903,8.54649106 15,8.19767087 15,7.4999695 C15,6.80226813 14.4428293,6.45347844 14.1859574,6.45347844 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

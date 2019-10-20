@@ -1,0 +1,39 @@
+/** @format */
+
+// $fontPath is relative to this file
+$fontPath: "../../static/fonts/" !default;
+
+@font-face {
+    font-display: swap;
+    font-family: "Noto Sans";
+    src: url("#{$fontPath}NotoSans-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Noto Sans";
+    font-style: italic;
+    src: url("#{$fontPath}NotoSans-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Noto Sans";
+    font-weight: 500;
+    src: url("#{$fontPath}NotoSans-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Noto Sans";
+    font-weight: 500;
+    font-style: italic;
+    src: url("#{$fontPath}NotoSans-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Noto Sans";
+    font-weight: 600;
+    src: url("#{$fontPath}NotoSans-SemiBold.woff2") format("woff2");
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="20px" viewBox="0 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="components/order-review" transform="translate(-26.000000, -22.000000)" fill-rule="nonzero">
+            <g id="Group-20">
+                <g transform="translate(26.000000, 22.000000)">
+                    <g id="Group-14">
+                        <g id="maps-and-flags">
+                            <path d="M7.5,0 C3.36447767,0 0,3.24930083 0,7.24321195 C0,12.1997805 6.71176528,19.4763128 6.99752463,19.7836569 C7.26593215,20.0723682 7.73455322,20.0718604 8.00247537,19.7836569 C8.28823472,19.4763128 15,12.1997805 15,7.24321195 C14.9999191,3.24930083 11.6354819,0 7.5,0 Z M7.5,10.8874742 C5.41931596,10.8874742 3.7266013,9.25266753 3.7266013,7.24321195 C3.7266013,5.23375638 5.4193564,3.59898876 7.5,3.59898876 C9.5806436,3.59898876 11.2733582,5.23379544 11.2733582,7.24325101 C11.2733582,9.25270659 9.5806436,10.8874742 7.5,10.8874742 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,8 @@
+---
+to: src/components/<%= h.inflection.pluralize(h.changeCase.paramCase(type)) %>/index.ts
+inject: true
+skip_if: <%= name %>
+append: true
+---
+export {default as <%= name %>} from './<%= name %>';
+export {default as <%= name %>Interface} from './<%= name %>/<%= name %>Interface';

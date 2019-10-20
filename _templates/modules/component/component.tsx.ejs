@@ -1,0 +1,23 @@
+---
+to: src/components/<%= h.inflection.pluralize(h.changeCase.paramCase(type)) %>/<%= name %>/<%= name %>.tsx
+---
+import * as React from 'react';
+
+import { <%= name %> as <%= name %>Interface } from './<%= name %>Interface';
+
+import './style.scss';
+
+export interface Props extends <%= name %>Interface {}
+export interface State {}
+
+export default class <%= name %> extends React.Component<Props, State> {
+    static displayName = '<%= name %>';
+
+    render() {
+        const { } = this.props;
+
+        return (
+            
+        );
+    }
+}
